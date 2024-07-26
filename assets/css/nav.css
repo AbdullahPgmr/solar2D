@@ -1,0 +1,81 @@
+/* nav */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar-links ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.navbar-links ul li a {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 12px #228be6;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+/* information of each planet */
+/* information will go top of the screen */
+
+.info {
+    backdrop-filter:blur(10px);
+    box-shadow: -2px -2px 50px #22aee6a4 inset;
+    border: 1px solid #22aee6a4;
+    border-radius:0px 20px 20px 0px;
+    position: fixed;
+    top: 10%;
+    writing-mode: vertical-rl;
+}
+
+.info-box {
+    display: flex;
+}   
+
+.info-box ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box ul li {
+    padding: 1rem;
+}
+
+.info-box ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 12px #228be6;
+}
+
